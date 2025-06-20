@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build:prod": "ng build --configuration production --base-href /red-collar-test/",
-    "deploy": "ng build --configuration production --base-href /red-collar-test/ && npx angular-cli-ghpages --dir=dist/red-collar-test"
+    "deploy": "ng build --configuration production --base-href /red-collar-test/ && npx angular-cli-ghpages --dir=dist/red-collar-test/browser"
   },
   "private": true,
   "dependencies": {
